@@ -1,50 +1,93 @@
-#bipbippapel{
-    width: 800px;
-    height: 400px;
-   margin: auto;
-  display: block; 
+body{
+background-color: #D1E7FF;
 }
 
-#hackashoes{
+#bipbippapel {
     width: 800px;
     height: 400px;
-    
-   margin: auto;
-  display: block;
+    margin: auto;
+    display: block;
 }
 
-#backend{
+#hackashoes {
     width: 800px;
     height: 400px;
-    
-   margin: auto;
-  display: block;
+    margin: auto;
+    display: block;
 }
 
-#backendchico{
+#backend {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+#gestion {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+#backendchico {
     width: 50px;
     height: 50px;
 }
 
-#cobol{
+#cobol {
     width: 50px;
     height: 50px;
 }
-#microfocus{
-   width: 60px;
+
+#microfocus {
+    width: 60px;
     height: 60px;
 
 }
 
 #misael {
-  transition: transform 0.5s ease, border-radius 0.5s ease, box-shadow 0.5s ease;
-  -webkit-transition: -webkit-transform 0.5s ease, border-radius 0.5s ease, box-shadow 0.5s ease;
+    transition: transform 0.5s ease, border-radius 0.5s ease, box-shadow 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease, border-radius 0.5s ease, box-shadow 0.5s ease;
 }
-#misael:hover{
-border-radius:50%;
--webkit-border-radius:50%;
-box-shadow: 0px 0px 15px 15px #ec731e;
--webkit-box-shadow: 0px 0px 15px 15px #ec731e;
-transform: rotate(360deg);
--webkit-transform: rotate(360deg);
+
+#misael:hover {
+    border-radius: 20%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #1a254a;
+    -webkit-box-shadow: 0px 0px 15px 15px #1a254a;
+    transform: translateY(20px) rotate(360deg);
+    -webkit-transform: translateY(20px) rotate(360deg);
+}
+
+#cardmisael{
+    background-color: #27408b;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #27408b;
+}
+
+#inicioc,
+#portafolioc,
+#acercadec,
+#cvc,
+#blogc {
+    color: white;
+}
+
+footer {
+    background-color: #27408b;
+}
+#informacionh3{
+    color:white
+}
+
+#misaelvivivanli{
+    color: white;
 }
